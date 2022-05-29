@@ -1,0 +1,62 @@
+/******************
+****** Carousel ******
+*********************/
+#carrusel {
+  float:left;
+  width:100%;
+  overflow:hidden;
+  height:350px;
+  position:relative;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#carrusel .left-arrow {
+  position:absolute;
+  left:10px;
+  z-index:1;
+  top:45%;
+  margin-top:-9px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+#carrusel .right-arrow {
+  position:absolute;
+  right:10px;
+  z-index:1;
+  top:45%;
+  margin-top:-9px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.carrusel {
+  width:4000px;
+  left:0px;
+  position:absolute;
+  z-index:0;
+}
+
+.carrusel>div {
+  float: left;
+  height: 100%;
+  margin-right: 5px;
+  width: 276px;
+  text-align:center;
+}
+
+.carrusel img {
+  cursor:pointer;
+}
+
+.services {
+  border:#CCCCCC 0px solid;
+  border-radius: 2.2rem;
+}
+
+.slider-arrow{
+  font-size: 25px;
+}
